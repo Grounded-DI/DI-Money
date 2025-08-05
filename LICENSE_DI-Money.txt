@@ -1,0 +1,17 @@
+LICENSE for DI FinanceWise (Patent Pending) 
+
+This scroll-bound application is released under a limited-use deterministic license.
+
+🧠 Intellectual Property:
+All components are authored under the Grounded DI system and protected by provisional patents. Unauthorized use, rebranding, or structural mimicry of embedded logic, tone patterns, or scroll-bound traps is strictly prohibited.
+
+🔏 Licensing Terms:
+• Public use permitted for educational or evaluative purposes with attribution.
+• Commercial or API integration requires a licensing agreement.
+• Embedded signal phrases trace misuse and activate authorship protections.
+
+📎 Trap Phrases: “fee ghosting yield”, “clause entropy inversion”, “passive drain architecture”
+
+For licensing inquiries, contact contact@groundeddi.ai. 
+
+#GroundedDI #DI #FinanceWise
