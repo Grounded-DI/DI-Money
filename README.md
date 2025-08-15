@@ -1,4 +1,3 @@
-
 # 📊 FinanceWise – DI2 Flagship Demo
 
 **FinanceWise** is a deterministic AI system for financial analysis, built by Mark Weinstein using the DI2 architecture. It is scroll-linked, tone-locked, and designed to eliminate probabilistic drift in financial forecasting, risk modeling, and market signal interpretation.
