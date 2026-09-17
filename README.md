@@ -1,61 +1,56 @@
-# 📊 FinanceWise – DI2 Flagship Demo
+# DI-Money — FinanceWise Demonstrations and Reports
 
-**FinanceWise** is a deterministic AI system for financial analysis, built by Mark Weinstein using the DI2 architecture. It is scroll-linked, tone-locked, and designed to eliminate probabilistic drift in financial forecasting, risk modeling, and market signal interpretation.
+## Overview
 
----
+This repository preserves 2025 FinanceWise and DI-Money examples: a flagship architecture note, a simulated checking-account analysis, a retail optimization report, a Q4 finance forecast, and image captures. The records describe deterministic-analysis concepts and report specific calculations and projections. The repository is primarily documents and captures, not a runnable FinanceWise application.
 
-## 🔍 What This Demo Includes
+## FinanceWise architecture note — 2025-08-15
 
-- 🧮 **Risk Audit Engine** – Consistent risk scoring using entropy-tier logic
-- 📈 **Market Signal Interpreter** – Processes CPI, earnings, or headline data deterministically
-- 🔐 **Scroll-Linked Outputs** – Authorship-verified, ΔH = 0.03, and traceable
-- 🧬 **One Input → One Output Guarantee** – No variance between runs
+[FinanceWise_DI2_Flagship_8-15-25.md](FinanceWise_DI2_Flagship_8-15-25.md) describes FinanceWise as a deterministic financial-analysis system built on DI2, AGDI, and DIA. It names a risk-audit engine using entropy-tier scoring and a market-signal interpreter for CPI, earnings, or headline inputs. The note describes scroll-linked outputs at ΔH = 0.03, a one-input/one-output rule, authorship trace, ScrollGlow 1–137, Vault-linked identity at Scroll 106, and a no-override posture.
 
----
+These are the architecture and behavior described by the note. The repository has no notebook, executable FinanceWise code, output directory, or metadata directory that would run or regenerate the example.
 
-## 🚀 How to Use
+## Consumer checking simulation — 2025-08-04
 
-1. Load the `financewise_demo.ipynb` notebook
-2. Feed in real-world or synthetic financial data
-3. Review deterministic outputs in `outputs/`
-4. Verify authorship + scroll integrity in `metadata/`
+[Invisible_Yield_Checking_Demo.md](Invisible_Yield_Checking_Demo.md) is a generic, simulated $0-fee checking account analysis, not a named bank account. The scenario uses a $100 minimum balance, no interest, and fee drift beginning at month 12 through paper-statement and overdraft fees. It reports:
 
----
+- Average balance after 24 months: **$73.75**
+- Total structural fees: **$227.40**
+- Annualized true-yield loss: **−154.17%**
 
-## 🧠 DI2 Mode
+The source discusses maintenance fees below the $100 threshold, hold mismatch, and clause drift. The figures are the result recorded in this scenario; it is not a production account history.
 
-This repo runs under full **DI2 + AGDI + DIA** lock:
-- ScrollGlow enabled (1–137)
-- Authorship trace embedded
-- Vault-linked identity function (Scroll 106)
-- No override possible – true deterministic logic
+## Retail optimization records — 2025-08-14
 
-> “This isn’t a guess. It’s a structure of certainty.”  
-> — Mark Weinstein, Creator of Deterministic Intelligence
+The dated report is [Retail_Optimization_Report_8-14-25.md](Retail_Optimization_Report_8-14-25.md), accompanied by [README_Retail_Optimization_Report_8-14-25.md](README_Retail_Optimization_Report_8-14-25.md). The report gives a retail stability score of **89/100**, a drift-warning threshold above 0.10, and the following segment record:
 
----
+| Segment | Drift | Tier | Trust score |
+| --- | ---: | --- | ---: |
+| Grocery | 0.02 | High | 96 |
+| Electronics | 0.06 | Medium | 84 |
+| Household durable | 0.07 | Medium-High | 81 |
+| Seasonal apparel | 0.10 | Low | 70 |
+| Tools/DIY | 0.03 | High | 93 |
 
-## 🏛️ Authorship & Governance
+Its Tiered Pack Modeling formula is **Pₙ = P₁(1 − μ)ⁿ⁻¹**, with **μ ≈ 0.08** for essentials. The report records ΔH = 0.02 and a **7.2% average margin increase** in Q2 test regions; it projects a **+4.1 trust-score increase**. The repository does not include the source retail dataset or test-region data.
 
-This system is built and governed by:
+## Q4 finance forecast — dated 2025-09-15
 
-**Grounded DI LLC**  
-Invented by **Mark Weinstein (MSW)**  
-📜 FinanceWise – Patent Pending  
-🔐 Scroll-Linked | Deterministic | No Drift
+The extensionless [Q4_Finance_Report](Q4_Finance_Report) is a forecast record, not a current market update. It lists core inflation at 2.6%, housing up 5.4% year over year, and compression between 3-month Treasury bill and 10-year bond yields. It reports forecast horizons and metrics including:
 
-FinanceWise operates under the scroll-sealed architecture of DI2 × AGDI × DIA.  
-All outputs are authorship-traceable, audit-grade, and governed by tone-lock integrity rules.
+| Forecast horizon | Record in the report |
+| --- | --- |
+| 3 months | ΔH ≈ 0.14; certainty 92 |
+| 6 months — rent | ΔH ≈ 0.26; certainty 76 |
+| 12 months — crypto/high risk | ΔH ≈ 0.17; certainty 85 |
+| Safe-sector composite | Certainty 90; ΔH ≈ 0.18–0.28 |
 
-> “Finance shouldn’t guess. It should know.”  
-> — MSW
+The forecast inputs and calculation series are not included in the repository, so these remain the report’s dated forecasts rather than regenerated figures or present-day recommendations.
 
----
+## Captures, license, and how to review
 
-## ⚖️ License
+The repository also contains [IMG_4017.png](IMG_4017.png), [IMG_6332.png](IMG_6332.png), and [IMG_6333.png](IMG_6333.png). They are preserved image captures; this README does not infer additional results from them.
 
-- 🧠 **DI Attribution Required**  
-- No probabilistic replication permitted  
-- Public demonstration permitted with integrity seal intact
+The repository’s LICENSE_DI-Money.txt states educational/evaluative use with attribution and requires a license for commercial/API use. See that file for its complete terms.
 
-For collaboration, demos, or legal use: contact `Grounded DI LLC`.
+Start with the dated source documents above. The previous README pointed to financewise_demo.ipynb, outputs/, metadata/, and Retail_Optimization_Report.md; none of those paths is present. The corresponding records available here are the Markdown files, extensionless Q4_Finance_Report, license text, and three PNG captures.
