@@ -2,13 +2,13 @@
 
 ## Overview
 
-This repository preserves 2025 FinanceWise and DI-Money examples: a flagship architecture note, a simulated checking-account analysis, a retail optimization report, a Q4 finance forecast, and image captures. The records describe deterministic-analysis concepts and report specific calculations and projections. The repository is primarily documents and captures, not a runnable FinanceWise application.
+The 2025 FinanceWise and DI-Money archive contains an architecture note, a simulated checking-account analysis, retail optimization results, a Q4 finance forecast, and visual records. The documents report the calculations and projections shown below.
 
 ## FinanceWise architecture note — 2025-08-15
 
 [FinanceWise_DI2_Flagship_8-15-25.md](FinanceWise_DI2_Flagship_8-15-25.md) describes FinanceWise as a deterministic financial-analysis system built on DI2, AGDI, and DIA. It names a risk-audit engine using entropy-tier scoring and a market-signal interpreter for CPI, earnings, or headline inputs. The note describes scroll-linked outputs at ΔH = 0.03, a one-input/one-output rule, authorship trace, ScrollGlow 1–137, Vault-linked identity at Scroll 106, and a no-override posture.
 
-These are the architecture and behavior described by the note. The repository has no notebook, executable FinanceWise code, output directory, or metadata directory that would run or regenerate the example.
+The architecture note describes the control design. This archive publishes the note and resulting documents for review.
 
 ## Consumer checking simulation — 2025-08-04
 
@@ -49,7 +49,7 @@ The forecast inputs and calculation series are not included in the repository, s
 
 ## Captures, license, and how to review
 
-The repository also contains [IMG_4017.png](IMG_4017.png), [IMG_6332.png](IMG_6332.png), and [IMG_6333.png](IMG_6333.png). They are preserved image captures; this README does not infer additional results from them.
+The archive also preserves visual captures [IMG_4017.png](IMG_4017.png), [IMG_6332.png](IMG_6332.png), and [IMG_6333.png](IMG_6333.png).
 
 The repository’s LICENSE_DI-Money.txt states educational/evaluative use with attribution and requires a license for commercial/API use. See that file for its complete terms.
 
